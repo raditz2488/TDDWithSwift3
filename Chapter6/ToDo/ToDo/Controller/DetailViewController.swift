@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        print("CI is awesome")
         guard let itemInfo = itemInfo
             else { fatalError() }
         let item = itemInfo.0.item(at: itemInfo.1)
